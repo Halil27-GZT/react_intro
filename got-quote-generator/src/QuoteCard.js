@@ -17,7 +17,7 @@ import React from "react";
   };
 
 
-function QuoteCard(props) {
+function QuoteCard({ quoteText, characterName, isQuoteEpic }) {
 
     return (
         <blockquote style={quoteStyle}>
