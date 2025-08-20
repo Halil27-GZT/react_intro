@@ -2,19 +2,20 @@ import './App.css';
 
   const quote = "Der Winter naht.";
   const character = "Ned Stark";
+  const isEpic = true;
 
   const quoteStyle = {
     fontStyle: 'italic',
-    color: '#db560aff',
+    color: '#f89a03ff',
     fontSize: '1.5em',
     marginBottom: '10px',
-    borderLeft: '4px solid #F8C471',
+    borderLeft: '4px solid #f89a03ff',
     paddingLeft: '15px'
   };
 
   const characterStyle = {
     fontSize: '0.8em',
-    color: '#ae20a9ff',
+    color: '#434343ff',
     marginTop: '5px',
     display: 'block'
   };
@@ -33,6 +34,7 @@ function App() {
       </main>
       <footer style={characterStyle}>
         - {character}
+        {isEpic && <span style={{ marginLeft: '10px' }}>🌟</span>}
       </footer>
     </div>
   );
