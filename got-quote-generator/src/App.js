@@ -12,7 +12,7 @@ function App() {
         <h1>Game of Thrones Zitat-Generator</h1>
         <p>Ein Ort für Weisheit (und Sarkasmus) aus Westeros.</p>
         <nav className='main-nav'>
-          <Link to="/" className='nav-link'>Home</Link>
+          <Link to="/" className='nav-link'>Home </Link>
           <Link to="/about" className='nav-link'>Über uns</Link>
         </nav>
       </header>
